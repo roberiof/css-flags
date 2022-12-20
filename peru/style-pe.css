@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, #e650457e, #610600);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flag{
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+
+.red1 , .red2{
+    width: 200px;
+    background-color: red;
+}
+
+
+.simbol{
+    width: 220px;
+    background-color: white;
+}
+
+img{
+    width: 200px;
+    margin-top: 45%;
+
+}
+
+
+@media (max-width:600px){
+    .flag{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .red1 , .red2 ,.simbol{
+        width: 100px;
+    }
+    
+    
+    img{
+        width: 100px;
+    }
+    
+}
